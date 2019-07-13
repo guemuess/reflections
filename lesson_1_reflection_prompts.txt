@@ -1,0 +1,72 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    
+Fill in your answer here
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    
+Fill in your answer here
+
+- back up, learn from mistakes
+
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    
+Fill in your answer here
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    
+- z.B. mehrere Dateien hängen zusammen müssen also zsm geupdated werden
+
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    
+Fill in your answer here
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    
+Fill in your answer here
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    
+Fill in your answer here
+
+
+
+
+- git log: ID, date, message of commit
+- git diff ID1 ID2 --> differenz zw. 2 versionen
+- make one commit per logical change
+- bei commit wird git alle dateien in der repository gleichzeitig updaten
+- git log --stat --> gives statistics about which files have changed in each commit
+- git config --global color.ui auto --> stellt änderungen/diffs farbig dar
+- "q" zum verlassen der funktion
+- git checkout id --> restore previous version
+- cd ~ --> home directory
+- mv --> move
+- git clone url
+- git init --> macht repository aus ordner
+- git status --> zeigt welche dateien geändert worden sind seit letztem commit
+- ls -a --> zeigt die dateien im ordner inkl. hidden files
+- neuerung
+
+alias note="//\/c/Program\ Files/Notepad++/notepad++.exe"
