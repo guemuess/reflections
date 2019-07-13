@@ -64,9 +64,18 @@ Fill in your answer here
 - cd ~ --> home directory
 - mv --> move
 - git clone url
-- git init --> macht repository aus ordner
+- git init --> macht repository aus ordner indem man gerade ist
 - git status --> zeigt welche dateien geändert worden sind seit letztem commit
 - ls -a --> zeigt die dateien im ordner inkl. hidden files
-- neuerung
+- git add dateiname.endung --> datei in stage area einfügen, d.h. auf commit vorbereiten
+- git reset dateiname.endung --> datei wieder aus stage area entfernen
+- git commit --> message über texteditor
+- git commit -m "Commit message" --> ohne texteditor
+- https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
+- git config --global user.email "salih.guemues@tum.de"
+- git config --global user.name "guemuess"
+
+
+
 
 alias note="//\/c/Program\ Files/Notepad++/notepad++.exe"
