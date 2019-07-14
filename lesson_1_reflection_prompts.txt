@@ -55,12 +55,18 @@ Fill in your answer here
 
 - git log: ID, date, message of commit
 - git diff ID1 ID2 --> differenz zw. 2 versionen
+- git diff --> ohne argument wird working area mit staging area verglichen --> alle änderungen zwischen geaddetem und nicht geaddetem stand
+- git diff --staged --> vlg zwischen staging und aktuellster commiting area
+
+
+
 - make one commit per logical change
 - bei commit wird git alle dateien in der repository gleichzeitig updaten
 - git log --stat --> gives statistics about which files have changed in each commit
 - git config --global color.ui auto --> stellt änderungen/diffs farbig dar
 - "q" zum verlassen der funktion
 - git checkout id --> restore previous version
+- git checkout master --> ??
 - cd ~ --> home directory
 - mv --> move
 - git clone url
@@ -69,11 +75,33 @@ Fill in your answer here
 - ls -a --> zeigt die dateien im ordner inkl. hidden files
 - git add dateiname.endung --> datei in stage area einfügen, d.h. auf commit vorbereiten
 - git reset dateiname.endung --> datei wieder aus stage area entfernen
+- git reset --hard --> alles aus working und staging area löschen --> änderungen gehen verloren
 - git commit --> message über texteditor
 - git commit -m "Commit message" --> ohne texteditor
 - https://github.com/github/training-kit/blob/master/downloads/github-git-cheat-sheet.pdf
 - git config --global user.email "salih.guemues@tum.de"
 - git config --global user.name "guemuess"
+- git branch --> ohne argument --> zeigt die vorhandenen branches an
+- git branch branchname --> creates a new branch with specified name
+- git branch -d coins --> deletes branch label "coins" --> only meaningful after merge
+- remote branch = branch created by somebody else, not me
+- git checkout -b new_branch_name --> wechselt zu neuem commit und definiert diesen als branch; alternativ : git branch new_branch_name und dann git checkout new_branch_name
+- git merge branch2 branch 3 --> creates merged version of branch3 and branch2--> includes branch3 in branch2,  but if currently branch1 is active, it will be merged as well
+- git show --> vergleicht latest commit mit parent
+- git show commit_id --> vergleicht commit mit parent
+- git log --graph --> zeichnet einen branch diagramm
+- git log -n 1 --> zeigt nur letzten commit an
+
+
+- git remote --> ohne argument --> zeigt die definierten remotes an
+- git remote add origin repo_url --> fügt remote ein
+- git remote -v --> mehr infos zu den remotes
+
+
+
+
+infos zu git id:
+- https://git-scm.com/book/en/v2/Git-Internals-Git-Objects
 
 
 
